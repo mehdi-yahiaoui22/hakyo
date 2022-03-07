@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "hakyolms": "apps/hakyolms",
+    "hakyolms-e2e": "apps/hakyolms-e2e"
+  }
+}
