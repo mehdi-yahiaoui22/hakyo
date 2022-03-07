@@ -1,5 +1,0 @@
-{
-  "redirects": [
-    { "source": "/api", "destination": "https://api.hakyo.ga" }
-  ]
-}
