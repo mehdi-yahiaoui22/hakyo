@@ -3,7 +3,7 @@
     "scope":"hakyoapi",
     "builds": [
     {
-      "src": "dist/apps/hakyoapi/main.js",
+      "src": "dist/apps/server/main.js",
       "use": "@vercel/node"
     }],
     "routes": [
