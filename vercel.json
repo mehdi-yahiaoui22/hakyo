@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "scope":"server",
     "builds": [
     {
       "src": "/dist/apps/server/main.js",
