@@ -3,21 +3,19 @@
     "scope":"hakyoapi",
     "builds": [
     {
-      "src": "dist/apps/server/main.js",
+      "src": "/dist/apps/server/main.js",
       "use": "@vercel/node"
     }],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "dist/apps/server/main.js",
+        { "src": "/api/(.*)", "dest": "/dist/apps/server/main.js",  
             "methods": [
                 "GET",
                 "POST",
                 "PUT",
                 "DELETE"
             ]
- 
-        }]
+  }
+    ]
 }
 
 
