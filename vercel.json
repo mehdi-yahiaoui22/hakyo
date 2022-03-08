@@ -1,6 +1,11 @@
 {
     "version": 2,
     "scope":"hakyoapi",
+    "builds": [
+    {
+      "src": "dist/apps/hakyoapi/main.js",
+      "use": "@now/node"
+    }],
     "routes": [
         {
             "src": "/(.*)",
