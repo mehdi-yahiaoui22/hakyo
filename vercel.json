@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "scope":"hakyoapi",
+    "scope":"server",
     "builds": [
     {
       "src": "/dist/apps/server/main.js",
