@@ -1,8 +1,11 @@
 {
     "version": 2,
+    "github": {
+        "enabled": false
+    },
     "builds": [
     {
-      "src": "/apps/server/main.ts",
+      "src": "/dist/apps/server/main.js",
       "use": "@vercel/node"
     }],
     "routes": [
